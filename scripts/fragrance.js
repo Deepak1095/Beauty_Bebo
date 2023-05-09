@@ -53,7 +53,7 @@ frag_page.onclick=()=>{
     window.location.href="fragrance.html"
 }
 
-let url="https://js211-project.onrender.com/fragrance"
+let url="https://azure-chick-vest.cyclic.app/fragrance"
 let product=async(pageNo=1)=>{
   let res=await fetch(`${url}?_limit=9&_page=${pageNo}`)
  res= await res.json()

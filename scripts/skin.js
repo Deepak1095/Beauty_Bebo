@@ -57,7 +57,7 @@ let frag_page=document.getElementById("fragrance_btn")
 frag_page.onclick=()=>{
     window.location.href="fragrance.html"
 }
-let url="https://js211-project.onrender.com/skin"
+let url="https://azure-chick-vest.cyclic.app/skin"
 let product=async(pageNo=1)=>{
      let res=await fetch(`${url}?_limit=12&_page=${pageNo}`)
     res= await res.json()

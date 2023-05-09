@@ -184,7 +184,7 @@ let addPro = async () => {
         price: +price.value,
         image: image.value,
     }
-    let url_1 = await fetch(`https://js211-project.onrender.com/skin`, {
+    let url_1 = await fetch(`https://azure-chick-vest.cyclic.app/skin`, {
         method: "POST",
         body: JSON.stringify(obj),
         headers: {
@@ -204,7 +204,7 @@ let updPro = async () => {
         
         price: +price.value,
     }
-    let url_1 = await fetch(`https://js211-project.onrender.com/skin/${id1}`, {
+    let url_1 = await fetch(`https://azure-chick-vest.cyclic.app/skin/${id1}`, {
         method: "PATCH",
         body: JSON.stringify(obj),
         headers: {
@@ -220,7 +220,7 @@ let updPro = async () => {
 let delePro = async () => {
     let id1 = document.getElementById("id_pro").value
 
-    let url_1 = await fetch(`https://js211-project.onrender.com/skin/${id1}`, {
+    let url_1 = await fetch(`https://azure-chick-vest.cyclic.app/skin/${id1}`, {
         method: "DELETE",
         headers: {
             "Content-type": "application/json "

@@ -58,7 +58,7 @@ frag_page.onclick=()=>{
 }
 
 let id=localStorage.Data_id
-let url="https://js211-project.onrender.com/skin"
+let url="https://azure-chick-vest.cyclic.app/skin"
 let product=async(pageNo=1)=>{
     let res=await fetch(`${url}/${id}`)
    res= await res.json()
